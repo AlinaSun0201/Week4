@@ -79,7 +79,7 @@ li,
 
 }
 
-.menuprod:visited{
+.menuprod:visited {
     color: rgba(22, 157, 175, 0.85);
 }
 
@@ -170,23 +170,26 @@ main {
 
 }
 
-.rightconteiner, .Layer2, main {
+.rightconteiner,
+.Layer2,
+main {
     position: relative;
 }
 
 .rightconteiner {
-    width: 490px;
+    width: 460px;
     height: 550px;
     top: 14vh;
     margin-left: 50vw;
-    margin-top: -50vh;
+    margin-top: -60vh;
     background-image: url('../images/Group48096063.jpg');
     background-size: 80%;
-    background-position: top 0px left 20px;;
+    background-position: top 0px left 20px;
+    ;
     background-repeat: no-repeat;
 }
 
- .layer1 {
+.layer1 {
     width: 390px;
     height: 460px;
     padding-top: 4vh;
@@ -195,12 +198,17 @@ main {
 
 
 .layer2 {
-    width: 390px;
-    height: 420px;
-    margin-top: -36vh;
+    width: 380px;
+    height: 340px;
     margin-left: -1vw;
     background-image: url('../images/Group48096062.png');
     background-size: 96%;
-    background-position: 45%  55%;
+    background-position: 45% 55%;
     background-repeat: no-repeat;
+}
+
+.pic2 {
+    width: 400px;
+    height: 330px;
+    margin-top: -40vh;
 }
